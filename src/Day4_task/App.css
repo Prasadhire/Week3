@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.app-container.light {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-container.dark {
+  background-color: #000000;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  background-color: inherit;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+  background-color: #47edf9;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
